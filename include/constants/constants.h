@@ -1,0 +1,7 @@
+#ifndef ETTT_DEDICATED_MULTICORE_CONSTANTS_H
+#define ETTT_DEDICATED_MULTICORE_CONSTANTS_H
+
+const int NIL = -1;
+const int TIME_LIMIT = 600;
+
+#endif

@@ -1,0 +1,7 @@
+#ifndef ETTT_DEDICATED_MULTICORE_GLOBALVARIABLES_H
+#define ETTT_DEDICATED_MULTICORE_GLOBALVARIABLES_H
+
+extern long long numPossibleScenarios;
+extern long long numScenariosCheckedInBruteForceRun;
+
+#endif

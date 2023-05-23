@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(ETTT_dedicated_multicore)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(ETTT_dedicated_multicore main.cpp src/et/EtTask.cpp include/EtTask.h src/et/EtJob.cpp include/EtJob.h include/utils.h src/utils.cpp src/et/bruteForceEtSchedulabilityTest.cpp include/bruteForceEtSchedulabilityTest.h include/instanceGenerator.h src/instances/instanceGenerator.cpp src/instances/instanceParser.cpp include/instanceParser.h src/et/EtScheduleGraphTest.cpp include/EtScheduleGraphTest.h src/et/EtScheduleGraphNode.cpp include/EtScheduleGraphNode.h src/instances/NetworkTopologyGraph.cpp include/NetworkTopologyGraph.h include/constants/constants.h src/et/EtInstance.cpp include/EtInstance.h include/globalVariables.h include/VectorHasher.h src/ettt/TtTask.cpp include/TtTask.h src/ettt/TtJob.cpp include/TtJob.h src/ettt/bruteForceEtttSchedulabilityTest.cpp include/bruteForceEtttSchedulabilityTest.h src/ettt/EtttInstance.cpp include/EtttInstance.h src/ettt/EtttScheduleGraphTest.cpp include/EtttScheduleGraphTest.h src/ettt/EtttScheduleGraphNode.cpp include/EtttScheduleGraphNode.h)
