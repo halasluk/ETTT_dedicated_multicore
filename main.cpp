@@ -205,7 +205,7 @@ int main(int argc, char **argv) {
         int numVerts = stoi(argv[3]);
         generateEtttInstances(argv[2], numVerts, true);
     } else {
-        cerr << "Unknown first input paramter." << endl;
+        cerr << "Unknown first input parameter." << endl;
         return NIL;
     }
     return 0;
